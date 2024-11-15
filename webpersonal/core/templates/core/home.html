@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 {% extends 'core/base.html' %}
+
+{% load static %}
 {% block title %}Portada{% endblock %}
-<!--html propio de nuestra página-->
-{% block content %}
-<h2>Bienvenidos</h2>
-<p>Esto es la portada.</p>
+
+{% block background %}{% static 'core/img/home-bg.jpg' %}{% endblock%}
+
+{% block headers %}
+    <h1>Martina García</h1>
+    <span class="subheading">Ingeniera Matemática </span>
 {% endblock %}
