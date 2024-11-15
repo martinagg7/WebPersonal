@@ -117,8 +117,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = "static/"
-STATICFILES_DIRS = [
-    BASE_DIR / "static",  #TUVE QUE AÑADIR ESTA RUTA
+TATICFILES_DIRS = [
+    BASE_DIR / "core/static",  # Ruta a la carpeta static en la aplicación core
 ]
 
 # Default primary key field type
