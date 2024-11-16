@@ -5,5 +5,4 @@ from .models import Project
 class ProjectAdmin(admin.ModelAdmin):
     readonly_fields = ('created', 'updated')
 
-#para registrar los proyectos y que los podamos guardar    
-admin.site.register(Project)
+admin.site.register(Project, ProjectAdmin)
