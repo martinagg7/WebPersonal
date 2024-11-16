@@ -4,7 +4,7 @@ class Project(models.Model):
 
     title = models.CharField(max_length=250)
     description = models.TextField()
-    image = models.ImageField()
+    image = models.ImageField(upload_to='projects')
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
 
