@@ -29,7 +29,7 @@ a:focus, a:hover {
 
 blockquote {
     font-style: italic;
-    color: #868e96;
+    color: #fff;
 }
 
 .avatar {
@@ -74,7 +74,7 @@ img::selection, img::-moz-selection {
 
 #mainNav .navbar-brand {
     font-weight: 800;
-    color: #343a40;
+    color: #fff;
 }
 
 #mainNav .navbar-toggler {
@@ -82,7 +82,7 @@ img::selection, img::-moz-selection {
     font-weight: 800;
     padding: 13px;
     text-transform: uppercase;
-    color: #343a40;
+    color: #fff;
 }
 
 #mainNav .navbar-nav > li.nav-item > a {
@@ -109,11 +109,11 @@ img::selection, img::-moz-selection {
     }
 
     #mainNav.is-fixed .navbar-brand {
-        color: #212529;
+        color: #fff;
     }
 
     #mainNav.is-fixed .navbar-nav > li.nav-item > a {
-        color: #212529;
+        color: #fff;
     }
 
     #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
@@ -124,7 +124,7 @@ img::selection, img::-moz-selection {
 header.masthead {
     margin-bottom: 50px;
     background: no-repeat center center;
-    background-color: #868e96;
+    background-color: #fff;
     background-size: cover;
     position: relative;
 }
